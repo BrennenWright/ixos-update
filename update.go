@@ -36,7 +36,7 @@ var offlineUpdatePackage string
 var version string
 
 //buffer to support function feedback in the GUI
-var output = bytes.NewBufferString("test output buffer")
+var output = bytes.NewBufferString("")
 
 //runCommand takes a commands and provides the response to the console
 //  assumes the client is already connected
